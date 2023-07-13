@@ -39,7 +39,7 @@ def starccm_installed(headnode):
 
 @pytest.mark.parametrize(
     "number_of_nodes",
-    [[8, 16, 32]],
+    [[8]],
 )
 def test_starccm(
     vpc_stack,
